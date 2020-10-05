@@ -1,3 +1,5 @@
+package Lesson1;
+
 public class Dog extends Animal implements AnimalContract {
 
     @Override
@@ -15,6 +17,6 @@ public class Dog extends Animal implements AnimalContract {
     }
 
     public void go() {
-        System.out.println("Dog is going...");
+        System.out.println("Lesson1.Dog is going...");
     }
 }
