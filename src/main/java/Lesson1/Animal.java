@@ -1,4 +1,4 @@
-package Lesson1;
+package lesson1;
 
 public abstract class Animal {
     private String type;
@@ -12,7 +12,7 @@ public abstract class Animal {
     }
 
     public void say() {
-        System.out.println("Lesson1.Animal can't say anything");
+        System.out.println("lesson1.Animal can't say anything");
     }
 
     public abstract void hearing();

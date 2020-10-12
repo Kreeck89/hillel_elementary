@@ -1,4 +1,4 @@
-package Lesson1;
+package lesson1;
 
 public class Dog extends Animal implements AnimalContract {
 
@@ -17,6 +17,6 @@ public class Dog extends Animal implements AnimalContract {
     }
 
     public void go() {
-        System.out.println("Lesson1.Dog is going...");
+        System.out.println("lesson1.Dog is going...");
     }
 }

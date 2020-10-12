@@ -1,4 +1,4 @@
-package Lesson1.abstractExample;
+package lesson1.abstractExample;
 
 public abstract class Class1 implements Interface1 {
 

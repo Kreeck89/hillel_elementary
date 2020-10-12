@@ -1,4 +1,4 @@
-package Lesson1.abstractExample;
+package lesson1.abstractExample;
 
 public class ExtendedClass extends Class2 {
 

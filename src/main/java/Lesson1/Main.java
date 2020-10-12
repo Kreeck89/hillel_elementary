@@ -1,8 +1,8 @@
-package Lesson1;
+package lesson1;
 
 public class Main {
     public static void main(String[] args) {
-//        Lesson1.User user = new Lesson1.User();
+//        lesson1.User user = new lesson1.User();
 ////        user.name = "Alex";
 //
 //        user.print();
@@ -12,12 +12,12 @@ public class Main {
 //        System.out.println("calc: " + calc);
 
 
-//        Lesson1.Animal animal = new Lesson1.Animal();
+//        lesson1.Animal animal = new lesson1.Animal();
         Dog dog = new Dog();
         Cat cat = new Cat();
 
-//        animal.setType("Lesson1.Animal");
-        cat.setType("Lesson1.Cat");
+//        animal.setType("lesson1.Animal");
+        cat.setType("lesson1.Cat");
         dog.setType("dog");
 
         cat.go();

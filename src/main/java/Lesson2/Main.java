@@ -1,7 +1,7 @@
-package Lesson2;
+package lesson2;
 
-import Lesson1.Animal;
-import Lesson1.Cat;
+import lesson1.Animal;
+import lesson1.Cat;
 
 import java.util.*;
 

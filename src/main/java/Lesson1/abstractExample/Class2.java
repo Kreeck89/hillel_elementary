@@ -1,4 +1,4 @@
-package Lesson1.abstractExample;
+package lesson1.abstractExample;
 
 public abstract class Class2 extends Class1 {
 //
