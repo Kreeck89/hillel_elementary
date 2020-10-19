@@ -9,4 +9,6 @@ public class Cat extends Animal implements SomeInterface {
     public void hearing() {
 
     }
+
+
 }
