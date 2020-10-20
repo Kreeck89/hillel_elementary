@@ -1,3 +1,6 @@
 .idea/
 target/
 *.iml
+src/main/java/lesson1/
+src/main/java/lesson2/
+src/main/java/lesson3/
