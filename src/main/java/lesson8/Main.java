@@ -4,5 +4,6 @@ public class Main {
     public static void main(String[] args) {
 //other commit
 //commit\
+        System.out.println("test");
     }
 }
