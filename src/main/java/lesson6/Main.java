@@ -3,6 +3,8 @@ package lesson6;
 import lesson1.Cat;
 
 import java.util.Arrays;
+import java.util.EnumSet;
+import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -70,7 +72,7 @@ public class Main {
 
         System.out.println("hillel.replace(\"l\", \"L\"): " + hillel.replace("hillel", "Hello"));
         System.out.println("hillel.replace(\"l\", \"L\"): " + hillel.replace("l", "Q"));
-        System.out.println("hillel.replaceAll(\"l\", \"L\"): " + hillel.replaceAll("l", "L"));
+        System.out.println("hillel.replaceAll(\"l\", \"L\"): " + hillel.replaceAll("[a-z]", "L"));
 
         //String.format
         System.out.println(String.format("Main method. hillel = %s, hillel.length = %d", hillel, hillel.length()));
@@ -86,6 +88,7 @@ public class Main {
 
         System.out.println(matcher.matches());
 //        System.out.println(matcher.find());
+
 
     }
 }
