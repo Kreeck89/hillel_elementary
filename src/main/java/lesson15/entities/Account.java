@@ -52,4 +52,12 @@ public class Account {
     public void setSubsId(int subsId) {
         this.subsId = subsId;
     }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
 }
