@@ -1,4 +1,4 @@
-package lesson18.entities;
+package lesson20.entities;
 
 import javax.persistence.*;
 import java.util.Set;
